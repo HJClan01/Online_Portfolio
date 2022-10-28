@@ -14,3 +14,37 @@
     margin: 50px;
     padding: 30px;
 }
+
+/* sizing */
+* {
+    box-sizing: border-box;
+}
+
+/*Column Container*/
+.row { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {flex:30%; 
+       background-color: #f5f3f3;
+       padding: 20px; 
+}
+
+
+/* Main Col */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px; 
+}
+
+/* adding responsivness */ 
+@media screen and (max-width: 700px) { 
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
