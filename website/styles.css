@@ -1,9 +1,10 @@
 .head {
+    margin-top: 0px;
     display: flexbox;
     padding: 0;
     text-align: center;
     color: white;
-    height: 200px;
+    height: 180px;
     
 }
 
@@ -21,7 +22,9 @@ margin-top: 0;
 
 }
 .navbar {
-  border-radius: 10px;
+  margin-top: 0;
+
+  border-radius: 0px;
   overflow:hidden; 
   background-color: rgb(255, 255, 255);
 
